@@ -1,0 +1,12 @@
+{
+	"title": "alon3",
+    "description": "alon3",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "alon3.1",
+        "title": "alon3.1",
+        "description": "alon3.1"
+      }
+  ]
+}
