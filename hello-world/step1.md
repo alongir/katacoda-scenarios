@@ -46,5 +46,7 @@ After the UP9 pods are ready, do a rolling restart to the application pods:
 
 `kubectl rollout restart deployments -n default`{{execute}}
 
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+
 
 
