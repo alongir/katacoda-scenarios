@@ -6,12 +6,12 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Run Minikube",
-      "courseData": "minikube.sh"
+      "courseData": "minikube.sh",
       "text": "step1.md"
     }],
     "intro": {
       "text": "intro.md",
-      "courseData": "minikube.sh"
+      "courseData": "minikube.sh",
       "credits": ""
     },
     "finish": {
