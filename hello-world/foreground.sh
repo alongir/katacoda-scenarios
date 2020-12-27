@@ -2,6 +2,8 @@
 
 echo "Upgrading Helm and running Minikube"; 
 while [ ! -f /opt/.backgroundfinished ]; do 
-  sleep 2 
+  sleep 1 
 done 
+echo "Starting Minikube"; 
+minikube start
 echo "Ready!"
