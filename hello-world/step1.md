@@ -33,3 +33,7 @@ Copy the Helm command that appears first thing after installation to this termin
 
 The Helm command will install UP9 on the K8s cluster.
 
+Once UP9 is installed, you should see two UP9 pods under the up9 namespace:
+
+`kubectl get pods -A`{{execute}}
+
