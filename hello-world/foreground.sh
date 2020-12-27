@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Waiting to complete"; 
+echo "Upgrading Helm and running Minikube"; 
 while [ ! -f /opt/.backgroundfinished ]; do 
   sleep 2 
 done 
