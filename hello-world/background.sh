@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "This is a background script with a long running process"
+echo "Installing latest version of Helm"
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 
-sleep 10
+# sleep 10
 
 echo "done" >> /opt/.backgroundfinished
