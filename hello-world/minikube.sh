@@ -2,6 +2,6 @@
 
 echo "This is a background script with a long running process"
 
-sleep 10
+minikube start
 
 echo "done" >> /opt/.backgroundfinished
