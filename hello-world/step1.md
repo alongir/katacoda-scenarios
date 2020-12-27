@@ -1,11 +1,15 @@
 The following demonstration requires installing a demo application on a Minikube cluster. 
 # Running Mininkube
-Let's first run a local Minkube cluster by running this command `minikube start`{{execute}}.
+Run a local Minkube cluster:`minikube start`{{execute}}.
+Make sure Minikube is running: `kubectl get pods -A`{{execute}}.
 
-# Installing the Microservices Demo Application
-We're going to install a the _Online Boutique_ demo application by Google that includes about 10 services communicating over gRPC. You can take a deeper look at the application [here](https://github.com/GoogleCloudPlatform/microservices-demo).
+# The Microservices Demo Application
+The [Online Boutique_ demo application by Google](https://github.com/GoogleCloudPlatform/microservices-demo) includes about 10 services communicating over gRPC.
 
 ![app-architecture](./assets/architecture-diagram.png)
 
-Let's clone the GIT repo by executing the following command: `git clone https://github.com/GoogleCloudPlatform/microservices-demo.git`{{execute}}.
+## Installing the Demo Application
 
+Clone the GIT repo: `git clone https://github.com/GoogleCloudPlatform/microservices-demo.git`{{execute}}.
+
+Deploy to Kubernetes: `kubectl apply -f ./release/kubernetes-manifests.yaml`{{execute}}.
