@@ -2,11 +2,11 @@ The following demonstration requires installing a demo application on a Minikube
 # Running Mininkube
 Run a local Minkube cluster:
 
-`minikube start`{{execute HOST2}}.
+`minikube start`{{execute}}.
 
 Check the status of our Kubernetes cluster: 
 
-`kubectl get pods -A`{{execute HOST2}}.
+`kubectl get pods -A`{{execute}}.
 
 # The Microservices Demo Application
 The [Online Boutique_ demo application by Google](https://github.com/GoogleCloudPlatform/microservices-demo) includes about 10 services communicating over gRPC.
@@ -17,12 +17,12 @@ The [Online Boutique_ demo application by Google](https://github.com/GoogleCloud
 
 Clone the GIT repo: 
 
-`git clone https://github.com/GoogleCloudPlatform/microservices-demo.git`{{execute HOST1}}.
+`git clone https://github.com/GoogleCloudPlatform/microservices-demo.git`{{execute}}.
 
 Deploy to Kubernetes: 
 
-`kubectl apply -f ./release/kubernetes-manifests.yaml`{{execute HOST1}}.
+`kubectl apply -f ./release/kubernetes-manifests.yaml`{{execute}}.
 
 New pods should be under the default namespace. See if they were added successfuly to our K8s cluster: 
 
-`kubectl get pods -A`{{execute HOST1}}.
+`kubectl get pods -A`{{execute}}.
