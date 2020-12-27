@@ -7,4 +7,4 @@ git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
 kubectl apply -f ./microservices-demo/release/kubernetes-manifests.yaml
 # sleep 10
 
-echo "done" >> /opt/.backgroundfinished
+echo "done" >> /root/katacoda-finished
