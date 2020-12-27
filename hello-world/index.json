@@ -6,6 +6,10 @@
   "details": {
     "steps": [
     {
+      "title": "Step 0 - Running Minikube",
+      "text": "step0.md"
+    },    
+    {
       "title": "Step 1 - Installing the Demo Application",
       "text": "step1.md"
     },
