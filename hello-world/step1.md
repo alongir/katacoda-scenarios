@@ -6,7 +6,7 @@ Winikube is already running in the background. Check the status of our Kubernete
 `kubectl get pods -A`{{execute}}
 
 # The Microservices Demo Application
-The [Online Boutique_ demo application by Google](https://github.com/GoogleCloudPlatform/microservices-demo) includes about 10 services communicating over gRPC.
+The [Online Boutique demo application by Google](https://github.com/GoogleCloudPlatform/microservices-demo) includes about 10 services communicating over gRPC.
 
 ![app-architecture](./assets/architecture-diagram.png)
 
@@ -46,7 +46,4 @@ After the UP9 pods are ready, do a rolling restart to the application pods:
 
 `kubectl rollout restart deployments -n default`{{execute}}
 
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
-
-
-
+https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
