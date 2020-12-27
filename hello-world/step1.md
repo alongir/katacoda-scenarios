@@ -26,3 +26,9 @@ Deploy to Kubernetes:
 New pods should be under the default namespace. See if they were added successfuly to our K8s cluster: 
 
 `kubectl get pods -A`{{execute}}.
+
+## Installing UP9
+
+If ayou haven't signed up to UP9, please do so using this link: https://up9.app/signup.
+Copy the Helm command that appears first thing after installation to this terminal. The Helm command will install UP9 on the K8s cluster.
+
