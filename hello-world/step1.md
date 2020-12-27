@@ -1,4 +1,5 @@
-The following demonstration requires installing a demo application on a Minikube cluster. 
+This tutorial is good if you want to see UP9 in action, but don'e have a Kubernetes cluster handy. The following few steps will guide you throuhg installing UP9 on a Minkube cluster running a demo applicatoin.
+
 # Running Mininkube
 Winikube is already running in the background. Check the status of our Kubernetes cluster: 
 
@@ -23,9 +24,13 @@ New pods should be under the default namespace. See if they were added successfu
 
 `kubectl get pods -A`{{execute}}
 
-## Installing UP9
+# Installing UP9
+
+## Sign up
 
 If you haven't signed up to UP9, please do so using this link: https://up9.app/signup.
+
+## Install
 
 Copy the Helm command that appears first thing after installation to this terminal. 
 
