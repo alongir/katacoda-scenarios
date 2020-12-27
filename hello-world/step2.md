@@ -8,14 +8,13 @@ Copy the Helm command that appears first thing after installation to this termin
 
 ![Helm command](./assets/helm.png)
 
-The Helm command will install UP9 on the K8s cluster.
-
 Once UP9 is installed, you should see two UP9 pods under the up9 namespace:
 
 `kubectl get pods -A`{{execute}}
 
-After the UP9 pods are ready, do a rolling restart to the application pods:
+Once the UP9 pods are ready, your screen will change to allow you to choose the services or namespaces to instrument. Please do so and save your configuration.
+![Helm command](./assets/services.png)
+
+Now restart the application's services by doing a rolling restart to the application deploymenets:
 
 `kubectl rollout restart deployments -n default`{{execute}}
-
-https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
