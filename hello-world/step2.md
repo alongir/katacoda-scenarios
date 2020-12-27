@@ -1,5 +1,3 @@
-# Installing UP9
-
 ## Sign up
 
 If you haven't signed up to UP9, please do so using this link: https://up9.app/signup.
