@@ -17,7 +17,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "courseData": "minikube.sh"
   },
   "backend": {
     "imageid": "minikube"
