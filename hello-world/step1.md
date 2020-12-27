@@ -13,3 +13,5 @@ The [Online Boutique_ demo application by Google](https://github.com/GoogleCloud
 Clone the GIT repo: `git clone https://github.com/GoogleCloudPlatform/microservices-demo.git`{{execute}}.
 
 Deploy to Kubernetes: `kubectl apply -f ./release/kubernetes-manifests.yaml`{{execute}}.
+
+New poids should be under the default namespace. Let's see if the pods were added successfuly to our K8s cluster: `kubectl get pods -A`{{execute}}.
