@@ -1,1 +1,1 @@
-Welcome to my first Katacoda Scenario!
+This is intro.md content

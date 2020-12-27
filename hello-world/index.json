@@ -1,6 +1,6 @@
 {
-  "title": "My Hello World with bash",
-  "description": "My Katacoda DEV TEST only - Please DO NOT USE",
+  "title": "Installing UP9 on a Minkube cluster",
+  "description": "Installing up9 is easy ..",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
@@ -17,10 +17,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
+    "hideintro": true,
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "minikube"
   }
 }
