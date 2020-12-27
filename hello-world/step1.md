@@ -37,3 +37,6 @@ Once UP9 is installed, you should see two UP9 pods under the up9 namespace:
 
 `kubectl get pods -A`{{execute}}
 
+After the UP9 pods are ready, do a rolling restart to the application pods:
+
+`kubectl rollout restart deployments -n default`{{execute}}
