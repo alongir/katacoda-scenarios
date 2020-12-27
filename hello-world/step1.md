@@ -21,7 +21,7 @@ Clone the GIT repo:
 
 Deploy to Kubernetes: 
 
-`kubectl apply -f ./release/kubernetes-manifests.yaml`{{execute}}.
+`kubectl apply -f ./microservices-demo/release/kubernetes-manifests.yaml`{{execute}}.
 
 New pods should be under the default namespace. See if they were added successfuly to our K8s cluster: 
 
