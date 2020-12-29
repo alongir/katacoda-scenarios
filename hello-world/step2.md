@@ -13,7 +13,7 @@ Once UP9 is installed, you should see two UP9 pods under the up9 namespace:
 `kubectl get pods -A`{{execute}}
 
 Once the UP9 pods are ready, your screen will change to allow you to choose the services or namespaces to instrument. Please do so and save your configuration.
-![Helm command](./assets/services.png)
+![Service selection](./assets/services.png)
 
 Now restart the application's services by doing a rolling restart to the application deploymenets:
 
