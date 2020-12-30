@@ -1,6 +1,6 @@
 {
   "title": "Installing UP9 on a Docker Compose cluster",
-  "description": "Installing up9 is easy ..",
+  "description": "Demostrating UP9 installation on a docker compose setup with a demo application",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
