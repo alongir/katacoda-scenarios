@@ -6,9 +6,9 @@
 #kubectl apply -f ./microservices-demo/release/kubernetes-manifests.yaml
 # sleep 10
 
-docker image pull gcr.io/up9-docker-hub/passive-tapper/master:latest
-docker image pull gcr.io/up9-docker-hub/collector/master:latest
-docker image pull gcr.io/up9-docker-hub/authentication-helper/master:latest
-docker image pull gcr.io/up9-docker-hub/trcc-agent/master:latest
+#docker image pull gcr.io/up9-docker-hub/passive-tapper/master:latest
+#docker image pull gcr.io/up9-docker-hub/collector/master:latest
+#docker image pull gcr.io/up9-docker-hub/authentication-helper/master:latest
+#docker image pull gcr.io/up9-docker-hub/trcc-agent/master:latest
   
 echo "done" >> /root/katacoda-finished
