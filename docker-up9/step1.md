@@ -11,15 +11,35 @@ Make sure UP9 was installed correctly
 `up9`{{execute}}
 
 ## Install a demo application
-`git clone https://github.com/microservices-demo/microservices-demo
-cd microservices-demo/deploy/docker-compose`{{execute}}
+`git clone https://github.com/microservices-demo/microservices-demo`{{execute}}
 
 ## Deploy UP9 on the demo application
-Let's first login to UP9. You can always use your own credentials, but for the purpose of the demo we'll use a guest account credentials.
-`up9 auth:login -client-id=client-id --client-secret=client-secret`{{execute}}
+
+First, we need to change directory to where your docker-compose file is.
+`cd microservices-demo/deploy/docker-compose`{{execute}}
+
+UP9 can cerate a configuration file for yourDocker-Compose setup. 
+`up9 tap:create-dcoker-compose $workspace`{{execute}}
+
+The command above just created a new file named docker-compose-up9.yml
+See this file using the editor
+`docker-compose-up9.yml`{{open}}
+
+Now to run the setup 
+`docker-compose -f docker-compose.yml -f docker-compose-up9.yml up`{{execute}}
+
+See the name of the workspace we'll use: 
+`echo $workspace`{{execute}}
+
+You can view teh demo app in this link: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+
+## Running a load test
+
+Let's inject some traffic by running a load test.
+`docker run --net=host weaveworksdemos/load-test -h localhost -r 100 -c 2`{{execute}}
 
 
-Tunning a load test
+
 seeing the results
 Installing UP9 on ypour cluster
 
