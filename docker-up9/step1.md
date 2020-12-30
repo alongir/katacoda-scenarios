@@ -15,7 +15,7 @@ First, we need to change directory to where your docker-compose file is.
 
 UP9 can cerate a configuration file for yourDocker-Compose setup. 
 
-`up9 tap:create-dcoker-compose $workspace`{{execute}}
+`up9 tap:create-docker-compose $workspace`{{execute}}
 
 The command above just created a new file named docker-compose-up9.yml
 See this file using the editor
