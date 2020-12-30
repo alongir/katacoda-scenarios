@@ -1,5 +1,5 @@
 ## Install the UP9 CLI
-`npm i -g up9`{{execute}}
+`npm i -g -s up9`{{execute}}
 
 Make sure UP9 was installed correctly
 `up9`{{execute}}
