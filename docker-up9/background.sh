@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 #echo "Installing latest version of Helm"
 #curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 #minikube start; minikube addons enable dashboard; kubectl apply -f /opt/kubernetes-dashboard.yaml
