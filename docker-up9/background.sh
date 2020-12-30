@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
+export UP9_CREDENTIALS=XtEtVPVHqNr021W4ZvflxWlturB5KK6G:rwl01oL9L_0W51oygUgTfnrdfQUJ9APG:up9.app
 #echo "Installing latest version of Helm"
 #curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 #minikube start; minikube addons enable dashboard; kubectl apply -f /opt/kubernetes-dashboard.yaml
