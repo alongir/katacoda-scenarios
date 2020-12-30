@@ -1,6 +1,24 @@
-Install UP9
-Install a demo application
-Install UP9 on the demo application
+Here are the required steps:
+* Install teh UP9 CLI
+* Install the demo application
+* Deploy UP9 on the demo application
+* Show how UP9 provides Interactive Observability
+
+## Install the UP9 CLI
+`npm i -g up9`{{execute}}
+
+Make sure UP9 was installed correctly
+`up9`{{execute}}
+
+## Install a demo application
+`git clone https://github.com/microservices-demo/microservices-demo
+cd microservices-demo/deploy/docker-compose`{{execute}}
+
+## Deploy UP9 on the demo application
+Let's first login to UP9. You can always use your own credentials, but for the purpose of the demo we'll use a guest account credentials.
+`up9 auth:login -client-id=client-id --client-secret=client-secret`{{execute}}
+
+
 Tunning a load test
 seeing the results
 Installing UP9 on ypour cluster
