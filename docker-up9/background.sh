@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "Installing latest version of Helm"
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
+#echo "Installing latest version of Helm"
 #curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 #minikube start; minikube addons enable dashboard; kubectl apply -f /opt/kubernetes-dashboard.yaml
 #git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
