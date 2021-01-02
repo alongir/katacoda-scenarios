@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -d "~/microservices-demo" ] && echo "done"
+[ -d "$HOME/microservices-demo" ] && echo "done"
