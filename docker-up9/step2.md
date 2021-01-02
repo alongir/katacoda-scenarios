@@ -1,20 +1,39 @@
-## Sign up
+## Install a demo application
+`git clone https://github.com/microservices-demo/microservices-demo`{{execute}}
 
-If you haven't signed up to UP9, please do so using this link: https://up9.app/signup.
+## Deploy UP9 on the demo application
 
-## Install
+First, we need to change directory to where your docker-compose file is.
 
-Copy the Helm command that appears first thing after installation to this terminal. 
+`cd microservices-demo/deploy/docker-compose`{{execute}}
 
-![Helm command](./assets/helm.png)
+UP9 can cerate a configuration file for yourDocker-Compose setup. 
 
-Once UP9 is installed, you should see two UP9 pods under the up9 namespace:
+`up9 tap:create-docker-compose "workspace-$(shuf -i 100-999 -n 1)" --agent-name "katacoda-$(shuf -i 100-999 -n 1)"`{{execute}}
 
-`kubectl get pods -A`{{execute}}
+The command above just created a new file named docker-compose-up9.yml
+See this file using the editor
 
-Once the UP9 pods are ready, your screen will change to allow you to choose the services or namespaces to instrument. Please do so and save your configuration.
-![Helm command](./assets/services.png)
+`docker-compose-up9.yml`{{open}}
 
-Now restart the application's services by doing a rolling restart to the application deploymenets:
+Now to run the setup 
 
-`kubectl rollout restart deployments -n default`{{execute}}
+`docker-compose -f docker-compose.yml -f docker-compose-up9.yml up`{{execute}}
+
+See the name of the workspace we'll use: 
+
+`echo $WORKSPACE`{{execute}}
+
+You can view teh demo app in this link: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+
+## Running a load test
+
+Let's inject some traffic by running a load test.
+
+`docker run --net=host weaveworksdemos/load-test -h localhost -r 100 -c 2`{{execute}}
+
+
+
+seeing the results
+
+
