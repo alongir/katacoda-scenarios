@@ -6,7 +6,8 @@ If you haven't already, sign up here: https://up9.app/signup/
 
 Go to the profile page in your UP9 account: https://up9.app/alon/profile, scroll all the way down to the API section and press on the **View secret** button.
 Then copy the **Client ID** and **Client Secret** and build the following line in the terminal:
-<pre>up9 auth:login --client-id=\<Client ID\> --client-secret=\<lient Secret\></pre>
+
+"up9 auth:login --client-id=\<Client ID\> --client-secret=\<lient Secret\>"{{copy}}
 
 ## Install a demo application
 `git clone https://github.com/microservices-demo/microservices-demo`{{execute}}
