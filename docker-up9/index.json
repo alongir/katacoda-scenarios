@@ -29,7 +29,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe-split",
+    "uilayout": "terminal",
     "showdashboard": true,	
     "dashboards": [{"name": "UP9", "href": "https://up9.app/"},	
         {"name": "Dashboard", "href": "https://up9.app/"}]
