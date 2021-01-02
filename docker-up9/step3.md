@@ -8,7 +8,7 @@ UP9 will cerate a configuration file for your Docker-Compose.
 
 A new file named **docker-compose-up9.yml** was create
 
-Run the setup 
+Downloading and launching all docker images can take a few minutes.
 
 `docker-compose -f docker-compose.yml -f docker-compose-up9.yml up`{{execute}}
 
