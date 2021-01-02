@@ -36,9 +36,8 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "showdashboard": true,	
-    "dashboards": [{"name": "UP9", "href": "https://up9.app/"},	
-        {"name": "Dashboard", "href": "https://up9.app/"}]
+    "showdashboard": false,	
+    "dashboards": []
   },
   "backend": {
     "imageid": "ubuntu:2004"
