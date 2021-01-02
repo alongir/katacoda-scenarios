@@ -5,7 +5,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 echo "export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
 export RND=$RANDOM
-export WORKSPACE=workspace$RND
-export AGENT=agent$RND" >> /root/.up9-config
+export WORKSPACE=workspace\$RND
+export AGENT=agent\$RND" >> /root/.up9-config
   
 echo "done" >> /root/katacoda-finished
