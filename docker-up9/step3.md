@@ -4,7 +4,7 @@ Change directory to where your docker-compose file is.
 
 UP9 will cerate a configuration file for your Docker-Compose. 
 
-`up9 tap:create-docker-compose "workspace-$(shuf -i 100-999 -n 1)" --agent-name "katacoda-$(shuf -i 100-999 -n 1)"`{{execute}}
+`up9 tap:create-docker-compose "$WORKSPACE" --agent-name "$AGENT"`{{execute}}
 
 A new file named **docker-compose-up9.yml** was create
 
