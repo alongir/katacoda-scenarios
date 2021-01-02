@@ -1,8 +1,11 @@
+## Sign up to UP9
+If you haven't already, sign up here: https://up9.app/signup/
+
 ## Install the UP9 CLI
 `npm i -g -s up9`{{execute}}
 
 Go to the profile page in your UP9 account: https://up9.app/alon/profile, scroll all the way down to the API section and press on the <pre>View secret</pre> button.
-The copy the <pre>Client ID</pre> and <pre>Client Secret</pre> and build the following line in the terminal:
+Then copy the <pre>Client ID</pre> and <pre>Client Secret</pre> and build the following line in the terminal:
 <pre>up9 auth:login --client-id=<client-id> --client-secret=<client-secret></pre>
 
 
