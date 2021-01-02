@@ -13,6 +13,10 @@
     {
       "title": "Step 2 - Install a Demo Application",
       "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Deploy UP9",
+      "text": "step3.md"
     }
     ],
     "assets": {
