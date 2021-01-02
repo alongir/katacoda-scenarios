@@ -32,7 +32,7 @@
     "uilayout": "terminal-iframe-split",
     "showdashboard": true,	
     "dashboards": [{"name": "UP9", "href": "https://up9.app/"},	
-        {"name": "Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com"}]
+        {"name": "Dashboard", "href": "https://up9.app/"}]
   },
   "backend": {
     "imageid": "ubuntu:2004"
