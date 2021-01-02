@@ -7,7 +7,8 @@
     "steps": [
     {
       "title": "Step I - Sign up and Install UP9",
-      "text": "step1.md"
+      "text": "step1.md",
+      "verify": "step1-verify.sh"
     },
     {
       "title": "Step 2 - Installing UP9",
