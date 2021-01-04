@@ -1,4 +1,4 @@
-If you haven't already, sign up here: https://up9.app/signup/
+If you haven't already, sign up here: https://up9.app/signup
 
 # Install the UP9 CLI
 `npm i -g -s up9`{{execute}}
