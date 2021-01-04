@@ -1,4 +1,5 @@
 If you haven't already, sign up here: https://up9.app/signup
+No need to follow the Helm installinstruction. We're going to install UP9 using DOcker-Compose from the command line.
 
 # Install the UP9 CLI
 `npm i -g -s up9`{{execute}}
